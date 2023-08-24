@@ -1,4 +1,15 @@
 # Python Dice Game
-Python script for a two-player dice game. The game features colorful aesthetics, password protection, and a leaderboard to track top scores.
+Python script[^fn] for a two-player dice game. The game features colorful aesthetics, password protection, and a leaderboard to track top scores.
 
-Made on python 3.8
+## Rules
+This game involves two players rolling two 6-sided dice each over five rounds. The rules include: 
+1. Each player's rolled dice points are added to their score.
+2. If the total is even, 10 points are added; if odd, 5 points are subtracted.
+3. Rolling a double grants an extra die roll, adding its points to the score.
+4. Scores cannot drop below 0.
+5. The highest score after five rounds wins. And they are added to the leaderboard.
+6. Ties resolved by rolling a single die, with the higher roll winning.
+7. Participation restricted to authorized players through a password (dic3GAMEZ).
+
+
+[^fn]: Made on python 3.8
